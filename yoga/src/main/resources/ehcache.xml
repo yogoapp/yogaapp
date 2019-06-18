@@ -1,0 +1,6 @@
+<ehcache>
+    <cache name="authenticationCache" maxElementsInMemory="10000" eternal="false"
+           timeToIdleSeconds="1800" timeToLiveSeconds="1800" overflowToDisk="true"/>
+    <cache name="authorizationCache" maxElementsInMemory="10000" eternal="false"
+           timeToIdleSeconds="1800" timeToLiveSeconds="1800" overflowToDisk="true"/>
+</ehcache>
